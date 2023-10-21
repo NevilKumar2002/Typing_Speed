@@ -1,16 +1,29 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App.js"
-const Index=()=>{
-  return(
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import "./index.css";
+// import App from "./App.js";
+// import { TestModeContestProvider } from "./Context/TestModeContest.js";
+// const Index=()=>{
+//   return(
    
-    <div>
-      <App />
-   
-    </div>
-  )
-}
+//     <div>
+//       <App />
+//    <TestModeContestProvider />
+//     </div>
+//   )
+// }
 
 
-ReactDOM.render(<Index />, document.getElementById("root"))
+// ReactDOM.render(<Index />, document.getElementById("root"))
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App.js';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

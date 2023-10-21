@@ -68,3 +68,19 @@ form button{
 .SignIn-btn:hover{
     background-color: greenyellow;
 }
+.upper-menu{
+    display: flex;
+    justify-content: space-between;
+    width:1000px;
+    margin:auto;
+    font-size: 1.4rem;
+}
+.modes{
+    display: flex;
+    gap:10px;
+
+}
+.time-mode:hover{
+    color:green;
+    cursor: pointer;
+}
